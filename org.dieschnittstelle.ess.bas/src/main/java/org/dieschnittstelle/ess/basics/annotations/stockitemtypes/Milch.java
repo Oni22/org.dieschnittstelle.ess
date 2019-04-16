@@ -5,7 +5,7 @@ import org.dieschnittstelle.ess.basics.annotations.Brandname;
 import org.dieschnittstelle.ess.basics.annotations.StockItem;
 import org.dieschnittstelle.ess.basics.annotations.Purchase;
 import org.dieschnittstelle.ess.basics.annotations.Units;
-
+import org.dieschnittstelle.ess.basics.annotations.DisplayAs;
 @StockItem
 public class Milch {
 
@@ -13,6 +13,9 @@ public class Milch {
 	private int menge;
 
 	@Brandname
+	@DisplayAs(
+			value = "Extra thick bundle of Milk"
+	)
 	private String markenname;
 
 	public int getMenge() {

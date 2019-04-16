@@ -1,0 +1,7 @@
+org\dieschnittstelle\ess\jrs\TouchpointCRUDServiceImplAsync.class
+org\dieschnittstelle\ess\jrs\ProductCRUDServiceImpl.class
+org\dieschnittstelle\ess\jrs\WebAPIRoot.class
+org\dieschnittstelle\ess\ser\ProductServletContextListener.class
+org\dieschnittstelle\ess\ser\HttpTrafficLoggingFilter.class
+org\dieschnittstelle\ess\ser\TouchpointServletContextListener.class
+org\dieschnittstelle\ess\jrs\TouchpointCRUDServiceImpl.class

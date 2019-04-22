@@ -1,11 +1,13 @@
 package org.dieschnittstelle.ess.basics.reflection.stockitemtypes;
 
 import org.dieschnittstelle.ess.basics.IStockItem;
+import org.dieschnittstelle.ess.basics.ShowAnnotations;
 
 import static org.dieschnittstelle.ess.utils.Utils.*;
 
 public class Chocolate implements IStockItem {
 
+	@ShowAnnotations.DisplayAs("NOIINNN")
 	private int units;
 	
 	private String brandname;

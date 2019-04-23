@@ -1,13 +1,18 @@
 package org.dieschnittstelle.ess.ser.client;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.List;
 import java.util.concurrent.Future;
 
+import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.Logger;
@@ -210,28 +215,47 @@ public class ShowTouchpointService {
 		try {
 
 			// create post request for the api/touchpoints uri
+			HttpPost request = new HttpPost("http://localhost:8888/org.dieschnittstelle.ess.ser/api/");
 
 			// create an ObjectOutputStream from a ByteArrayOutputStream - the
 			// latter must be accessible via a variable
+			ByteArrayOutputStream bos = new ByteArrayOutputStream();
 
 			// write the object to the output stream
-
+			ObjectOutputStream oos = new ObjectOutputStream(bos);
+			oos.writeObject(tp);
 			// create a ByteArrayEntity and pass it the byte array from the
 			// output stream
+			ByteArrayEntity bae = new ByteArrayEntity(bos.toByteArray());
 
 			// set the entity on the request
+			request.setEntity(bae);
 
 			// execute the request, which will return a Future<HttpResponse> object
+			client.execute(request, null);
 
 			// get the response from the Future object
+			Future<HttpResponse> newFuture = client.execute(request, null);
 
 			// log the status line
-
+			HttpResponse response = newFuture.get();
 			// evaluate the result using getStatusLine(), use constants in
 			// HttpStatus
+			show("Got Response: " + response);
 
 			/* if successful: */
+			if(response.getStatusLine().getStatusCode() == HttpStatus.SC_OK)
+			{
 
+				ObjectInputStream ois = new ObjectInputStream(response.getEntity().getContent());
+				AbstractTouchpoint abstractTouchpoint = (AbstractTouchpoint) ois.readObject();
+
+				EntityUtils.consume(response.getEntity());
+
+				show("sent touchPoint: " + tp);
+				show("received touchPoint: " + abstractTouchpoint);
+				return abstractTouchpoint;
+			}
 			// create an object input stream using getContent() from the
 			// response entity (accessible via getEntity())
 

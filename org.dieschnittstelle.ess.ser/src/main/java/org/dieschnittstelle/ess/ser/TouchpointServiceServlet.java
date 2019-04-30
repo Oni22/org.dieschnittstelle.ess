@@ -68,7 +68,7 @@ public class TouchpointServiceServlet extends HttpServlet {
 			// read an AbstractTouchpoint object from the stream
 			AbstractTouchpoint tp = (AbstractTouchpoint) ios.readObject();
 
-			TouchpointCRUDExecutor exec =(TouchpointCRUDExecutor) getServletContext().getAttribute("touchpintCRUDEExecutor");
+			TouchpointCRUDExecutor exec =(TouchpointCRUDExecutor) getServletContext().getAttribute("touchpointCRUD");
 			tp = exec.createTouchpoint(tp);
 			// call the create method on the executor and take its return value
 		
@@ -89,6 +89,21 @@ public class TouchpointServiceServlet extends HttpServlet {
 	}
 
 
+	public void doDelete(HttpServletRequest request,
+						 HttpServletResponse response){
+		try{
 
-	
+			long id = Long.parseLong(request.getParameter("id"));
+
+			TouchpointCRUDExecutor exec = (TouchpointCRUDExecutor) getServletContext()
+					.getAttribute("touchpointCRUD");
+
+			exec.deleteTouchpoint(id);
+
+		}
+		catch (Exception e){
+			logger.info(e);
+		}
+
+	}
 }

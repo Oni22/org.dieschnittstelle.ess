@@ -10,6 +10,7 @@ import java.util.concurrent.Future;
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.ByteArrayEntity;
@@ -185,9 +186,14 @@ public class ShowTouchpointService {
 	public void deleteTouchpoint(AbstractTouchpoint tp) {
 		logger.info("deleteTouchpoint(): will delete: " + tp);
 
+
 		createClient();
 
 		logger.debug("client running: {}",client.isRunning());
+
+		HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
+
+		Future<HttpResponse> res = client.execute(hd, null);
 
 		// once you have received a response this is necessary to be able to
 		// use the client for subsequent requests:
@@ -215,7 +221,7 @@ public class ShowTouchpointService {
 		try {
 
 			// create post request for the api/touchpoints uri
-			HttpPost request = new HttpPost("http://localhost:8888/org.dieschnittstelle.ess.ser/api/");
+			HttpPost request = new HttpPost("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
 
 			// create an ObjectOutputStream from a ByteArrayOutputStream - the
 			// latter must be accessible via a variable

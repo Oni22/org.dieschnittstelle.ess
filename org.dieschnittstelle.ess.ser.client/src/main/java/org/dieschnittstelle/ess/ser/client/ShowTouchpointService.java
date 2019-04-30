@@ -110,6 +110,7 @@ public class ShowTouchpointService {
 
 		logger.info("readAllTouchpoints()");
 
+
 		createClient();
 
 		logger.debug("client running: {}",client.isRunning());

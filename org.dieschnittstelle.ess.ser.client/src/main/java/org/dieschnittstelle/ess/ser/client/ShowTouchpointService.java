@@ -67,6 +67,7 @@ public class ShowTouchpointService {
 		}
 		client = Http.createAsyncClient();
 		client.start();
+
 	}
 
 	/**
@@ -191,9 +192,20 @@ public class ShowTouchpointService {
 
 		logger.debug("client running: {}",client.isRunning());
 
-		HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
+		try
+		{
+			HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
 
-		Future<HttpResponse> res = client.execute(hd, null);
+			Future<HttpResponse> res = client.execute(hd, null);
+
+			HttpResponse response = res.get();
+
+			EntityUtils.consume(response.getEntity());
+		}
+		catch (Exception e){
+
+		}
+
 
 		// once you have received a response this is necessary to be able to
 		// use the client for subsequent requests:

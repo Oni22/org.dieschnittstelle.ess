@@ -1,0 +1,9 @@
+org/dieschnittstelle/ess/ser/HttpTrafficLoggingFilter.class
+org/dieschnittstelle/ess/ser/TouchpointGUIServletFilter.class
+org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.class
+org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor$1.class
+org/dieschnittstelle/ess/ser/TouchpointServiceServlet.class
+org/dieschnittstelle/ess/ser/TouchpointGUIServlet.class
+org/dieschnittstelle/ess/ser/LocalRunTouchpointExecutor.class
+org/dieschnittstelle/ess/ser/TouchpointServiceServletAsync.class
+org/dieschnittstelle/ess/ser/TouchpointServletContextListener.class

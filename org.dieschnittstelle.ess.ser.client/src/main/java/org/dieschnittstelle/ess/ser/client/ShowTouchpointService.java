@@ -7,6 +7,7 @@ import java.io.ObjectOutputStream;
 import java.util.List;
 import java.util.concurrent.Future;
 
+import org.apache.http.HttpEntity;
 import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -185,6 +186,7 @@ public class ShowTouchpointService {
 	 * @param tp
 	 */
 	public void deleteTouchpoint(AbstractTouchpoint tp) {
+
 		logger.info("deleteTouchpoint(): will delete: " + tp);
 
 
@@ -194,14 +196,20 @@ public class ShowTouchpointService {
 
 		try
 		{
-			HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
+			HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints/" + tp.getId());
 
 			Future<HttpResponse> res = client.execute(hd, null);
 
 			HttpResponse response = res.get();
 
+			if(response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
+				//Show status code
+			}
+
 			EntityUtils.consume(response.getEntity());
 		}
+
+
 		catch (Exception e){
 
 		}
@@ -249,8 +257,6 @@ public class ShowTouchpointService {
 			// set the entity on the request
 			request.setEntity(bae);
 
-			// execute the request, which will return a Future<HttpResponse> object
-			client.execute(request, null);
 
 			// get the response from the Future object
 			Future<HttpResponse> newFuture = client.execute(request, null);

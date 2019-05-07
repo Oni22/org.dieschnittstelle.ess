@@ -91,18 +91,17 @@ public class TouchpointServiceServlet extends HttpServlet {
 
 	public void doDelete(HttpServletRequest request,
 						 HttpServletResponse response){
-		try{
 
-			long id = Long.parseLong(request.getParameter("id"));
+		try{
 
 			TouchpointCRUDExecutor exec = (TouchpointCRUDExecutor) getServletContext()
 					.getAttribute("touchpointCRUD");
 
-			exec.deleteTouchpoint(id);
+			exec.deleteTouchpoint(Long.parseLong(request.getPathInfo().substring(1)));
 
 		}
 		catch (Exception e){
-			logger.info(e);
+			logger.info(e,e);
 		}
 
 	}

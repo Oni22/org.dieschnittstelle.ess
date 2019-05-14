@@ -23,6 +23,8 @@ import org.dieschnittstelle.ess.entities.crm.Address;
 import org.dieschnittstelle.ess.entities.crm.StationaryTouchpoint;
 import org.dieschnittstelle.ess.utils.Http;
 
+import javax.swing.*;
+
 import static org.dieschnittstelle.ess.utils.Utils.*;
 
 public class ShowTouchpointService {
@@ -203,13 +205,14 @@ public class ShowTouchpointService {
 			HttpResponse response = res.get();
 
 			if(response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
-				//Show status code
+				JOptionPane optionPanel = new JOptionPane("Succesfully deleted!",JOptionPane.WARNING_MESSAGE);
+				JDialog dialog = optionPanel.createDialog("Deleted!");
+				dialog.setAlwaysOnTop(true);
+				dialog.setVisible(true);
 			}
-
+			
 			EntityUtils.consume(response.getEntity());
 		}
-
-
 		catch (Exception e){
 
 		}

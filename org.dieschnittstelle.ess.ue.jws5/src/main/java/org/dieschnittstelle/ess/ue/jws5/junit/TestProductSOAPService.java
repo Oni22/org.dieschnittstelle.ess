@@ -1,5 +1,5 @@
-package org.dieschnittstelle.ess.ue.jws5.junit;
-
+//package org.dieschnittstelle.ess.ue.jws5.junit;
+//
 //import java.util.List;
 //
 //import static org.junit.Assert.assertEquals;
@@ -12,12 +12,12 @@ package org.dieschnittstelle.ess.ue.jws5.junit;
 //import org.dieschnittstelle.ess.entities.erp.ws.ProductType;
 //import org.junit.Before;
 //import org.junit.Test;
-
-/*
- * UE JWS5: rufen Sie hier den in JWS4 implementierten Web Service auf.
- */
-public class TestProductSOAPService {
-
+//
+///*
+// * UE JWS5: rufen Sie hier den in JWS4 implementierten Web Service auf.
+// */
+//public class TestProductSOAPService {
+//
 //	private ProductCRUDSOAPClient client;
 //
 //	private IndividualisedProductItem PRODUCT_1 = null;
@@ -75,4 +75,4 @@ public class TestProductSOAPService {
 //
 //	}
 //
-}
+//}

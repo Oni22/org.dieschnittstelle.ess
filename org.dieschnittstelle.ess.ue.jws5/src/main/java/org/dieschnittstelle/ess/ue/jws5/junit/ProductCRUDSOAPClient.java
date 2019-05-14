@@ -1,15 +1,18 @@
-package org.dieschnittstelle.ess.ue.jws5.junit;
-
+//package org.dieschnittstelle.ess.ue.jws5.junit;
+//
 //import org.apache.logging.log4j.Logger;
 //import org.dieschnittstelle.ess.entities.erp.ws.AbstractProduct;
 //import org.dieschnittstelle.ess.entities.erp.ws.IndividualisedProductItem;
-//import org.dieschnittstelle.ess.jws.IProductCRUDService;
 //import org.dieschnittstelle.ess.jws.ProductCRUDWebService;
 //
 //import java.util.List;
-
-public class ProductCRUDSOAPClient {
-
+//
+//import org.dieschnittstelle.ess.jws.IProductCRUDService;
+//
+//
+//public class ProductCRUDSOAPClient {
+//
+//
 //	private IProductCRUDService serviceProxy;
 //
 //	protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(ProductCRUDSOAPClient.class);
@@ -46,5 +49,5 @@ public class ProductCRUDSOAPClient {
 //	public AbstractProduct readProduct(long id) {
 //		return serviceProxy.readProduct(id);
 //	}
-
-}
+//
+//}

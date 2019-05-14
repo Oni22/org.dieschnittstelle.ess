@@ -1,17 +1,13 @@
-package org.dieschnittstelle.ess.entities.erp;
-
-import java.io.Serializable;
-
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.logging.log4j.Logger;
 
-import javax.persistence.*;
 import javax.xml.bind.annotation.XmlType;
+import java.io.Serializable;
 
 @XmlType(namespace = "http://dieschnittstelle.org/ess/entities/erp/ws")
 public class IndividualisedProductItem extends AbstractProduct implements Serializable {
 
-	protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(IndividualisedProductItem.class);
+	//protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(IndividualisedProductItem.class);
 
 	/**
 	 * 
@@ -23,7 +19,7 @@ public class IndividualisedProductItem extends AbstractProduct implements Serial
 	private int expirationAfterStocked;
 	
 	public IndividualisedProductItem() {
-		logger.info("<constructor>");
+		//logger.info("<constructor>");
 	}
 	
 	public IndividualisedProductItem(String name,ProductType type,int expirationAfterStocked) {

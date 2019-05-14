@@ -31,7 +31,6 @@ public class ProductCRUDRESTClient {
 		serviceProxy = target.proxy(IProductCRUDService.class);
 	}
 
-
 	public AbstractProduct createProduct(IndividualisedProductItem prod) {
 		AbstractProduct created = serviceProxy.createProduct(prod);
 		// as a side-effect we set the id of the created product on the argument before returning

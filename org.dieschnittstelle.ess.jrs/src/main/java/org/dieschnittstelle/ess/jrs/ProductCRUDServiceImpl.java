@@ -26,29 +26,29 @@ public class ProductCRUDServiceImpl implements IProductCRUDService {
 		this.productCRUD = (GenericCRUDExecutor<AbstractProduct>)servletContext.getAttribute("productCRUD");
 	}
 
-	public IndividualisedProductItem createProduct(
+	public AbstractProduct createProduct(
 			IndividualisedProductItem prod) {
 		return (IndividualisedProductItem)this.productCRUD.createObject(prod);
 
 	}
 
-	public List<IndividualisedProductItem> readAllProducts() {
+	public List<AbstractProduct> readAllProducts() {
 		return (List)this.productCRUD.readAllObjects();
 	}
 
 
-	public IndividualisedProductItem updateProduct(long id,
-			IndividualisedProductItem update) {
+	public AbstractProduct updateProduct(long id,
+										 AbstractProduct update) {
 		update.setId(id);
-		return (IndividualisedProductItem)this.productCRUD.updateObject(update);
+		return (AbstractProduct)this.productCRUD.updateObject(update);
 	}
 
 	public boolean deleteProduct(long id) {
 		return this.productCRUD.deleteObject(id);
 	}
 
-	public IndividualisedProductItem readProduct(long id) {
-		return (IndividualisedProductItem)this.productCRUD.readObject(id);
+	public AbstractProduct readProduct(long id) {
+		return (AbstractProduct)this.productCRUD.readObject(id);
 	}
 	
 }

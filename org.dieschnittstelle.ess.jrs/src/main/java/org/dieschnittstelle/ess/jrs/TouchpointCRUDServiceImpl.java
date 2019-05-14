@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 import org.dieschnittstelle.ess.entities.crm.StationaryTouchpoint;
 import org.dieschnittstelle.ess.entities.crm.AbstractTouchpoint;
 import org.dieschnittstelle.ess.entities.GenericCRUDExecutor;
+import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
 
 public class TouchpointCRUDServiceImpl implements ITouchpointCRUDService {
 	
@@ -54,8 +55,11 @@ public class TouchpointCRUDServiceImpl implements ITouchpointCRUDService {
 		return (StationaryTouchpoint) this.touchpointCRUD.readObject(id);
 	}
 
-	/*
-	 * UE JRS1: implement the method for updating touchpoints
-	 */
+
+	public StationaryTouchpoint updateTouchpoint(long id,
+											  StationaryTouchpoint update) {
+		update.setId(id);
+		return (StationaryTouchpoint)this.touchpointCRUD.updateObject(update);
+	}
 
 }

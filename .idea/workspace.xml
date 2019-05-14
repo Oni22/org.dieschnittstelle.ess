@@ -3,36 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b4f1a21b-bb1a-4327-9849-ff864ff90534" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/org.dieschnittstelle.ess.ser.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/log4j2.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/HttpTrafficLoggingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/LocalRunTouchpointExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointGUIServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointGUIServletFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointServiceServletAsync.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/classes/org/dieschnittstelle/ess/ser/TouchpointServletContextListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/httpasyncclient-4.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/httpclient-4.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/httpcore-4.4.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/httpcore-nio-4.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-crm-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-erp-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-utils-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/lib/log4j-core-2.11.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/target/ser-webapp-1.0-SNAPSHOT/gui.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/org.dieschnittstelle.ess.applications/target/" />
@@ -76,83 +52,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="202" column="35" lean-forward="true" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
-              <caret line="71" column="29" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="556">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <folding>
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1436#1437#0" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Milch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Schokolade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="248">
+              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -184,12 +112,14 @@
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/ShowAnnotations.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Milch.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Schokolade.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java" />
       </list>
     </option>
   </component>
@@ -234,54 +164,12 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2_BAS" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3_SER" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
               <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
             </path>
             <path>
@@ -332,23 +220,6 @@
             <path>
               <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
               <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.jrs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.jrs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
               <item name="org.dieschnittstelle.ess.jrs.api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -380,12 +251,130 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jrs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="4_JRS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jrs.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jws.client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jws.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jws.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jws.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.jws.client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.ue.jws4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.ue.jws4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.ue.jws4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.ue.jws4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
+              <item name="5_JWS" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="org.dieschnittstelle.ess.ue.jws4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jws4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -410,7 +399,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SER: ShowTouchpointService">
+  <component name="RunManager" selected="JUnit.TestProductRESTService">
+    <configuration name="TestProductRESTService" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="jrs-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dieschnittstelle.ess.jrs.client.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.dieschnittstelle.ess.jrs.client.junit" />
+      <option name="MAIN_CLASS_NAME" value="org.dieschnittstelle.ess.jrs.client.junit.TestProductRESTService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.BAS: Show Annotations" />
       <item itemvalue="Application.BAS: ShowReflection" />
@@ -428,6 +432,7 @@
       <item itemvalue="JBoss Server.JWS" />
       <item itemvalue="JBoss Server.UE-JSF5" />
       <item itemvalue="JBoss Server.UE-JWS4" />
+      <item itemvalue="JUnit.TestProductRESTService" />
       <item itemvalue="JUnit.EJB+JPA: TestProductCRUD" />
       <item itemvalue="JUnit.EJB+JPA: TestStockSystem" />
       <item itemvalue="JUnit.PAT: TestAll" />
@@ -454,12 +459,27 @@
       <workItem from="1555924214551" duration="2002000" />
       <workItem from="1556015077392" duration="947000" />
       <workItem from="1556619273368" duration="7234000" />
-      <workItem from="1557224381495" duration="3883000" />
+      <workItem from="1557224381495" duration="5273000" />
+      <workItem from="1557827443826" duration="6281000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestProductRESTService - 2019.05.14 at 13h 33m 43s.xml">
+      <configuration name="TestProductRESTService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProductRESTService - 2019.05.14 at 13h 39m 35s.xml">
+      <configuration name="TestProductRESTService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProductRESTService - 2019.05.14 at 13h 41m 51s.xml">
+      <configuration name="TestProductRESTService" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProductRESTService - 2019.05.14 at 13h 45m 44s.xml">
+      <configuration name="TestProductRESTService" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28650000" />
+    <option name="totallyTimeSpent" value="36321000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,10 +491,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.656051" visible="true" weight="0.18097281" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.656051" visible="true" weight="0.27539343" />
       <window_info id="Structure" order="1" sideWeight="0.34394905" side_tool="true" weight="0.18097281" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -483,9 +503,10 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="JavaEE:App" order="7" side_tool="true" />
       <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32913166" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27030814" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31092438" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3767507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3977591" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -496,7 +517,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.2787115" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -629,31 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/junit/TestTouchpointService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="5">
+          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -671,31 +671,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/junit/TestTouchpointService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/classes/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        <state relative-caret-position="225">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/classes/org/dieschnittstelle/ess/jrs/IProductCRUDService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="60" column="20" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImplAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="256">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
-          <caret line="71" column="29" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="29" />
+        <state relative-caret-position="267">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="202" column="35" lean-forward="true" selection-start-line="202" selection-start-column="35" selection-end-line="202" selection-end-column="35" />
+        <state relative-caret-position="133">
+          <caret line="197" column="9" selection-start-line="197" selection-start-column="9" selection-end-line="197" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding>
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1411#1412#0" expanded="true" />
+            <element signature="e#1477#1478#0" expanded="true" />
+            <element signature="e#1498#1499#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#1583#1584#0" expanded="true" />
+            <element signature="e#1625#1626#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws5/src/main/java/org/dieschnittstelle/ess/ue/jws5/junit/ProductCRUDSOAPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/ShowTouchpointRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/TestProductRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1436#1437#0" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
         </state>
       </provider>
     </entry>

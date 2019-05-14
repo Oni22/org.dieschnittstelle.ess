@@ -10,6 +10,7 @@ import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.ParameterStyle;
 import javax.servlet.ServletContext;
 import javax.ws.rs.GET;
+import javax.ws.rs.core.Context;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.ws.WebServiceContext;
 import javax.xml.ws.handler.MessageContext;
@@ -25,7 +26,19 @@ import org.dieschnittstelle.ess.entities.erp.ProductType;
  * die Umetzung der Methoden die Instanz von GenericCRUDExecutor<AbstractProduct>,
  * die Sie aus dem ServletContext auslesen koennen
  */
+@WebService()
 public class ProductCRUDService {
+
+
+	@Context
+	private ServletContext servletContext;
+
+	GenericCRUDExecutor<AbstractProduct> products;
+
+	ProductCRUDService() {
+		this.products = (GenericCRUDExecutor<AbstractProduct>)servletContext.getAttribute("productCRUD");
+	}
+
 
 	public List<AbstractProduct> readAllProducts() {
 		return new ArrayList();

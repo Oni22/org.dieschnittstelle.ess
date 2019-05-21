@@ -27,8 +27,8 @@ public class ProductCRUDServiceImpl implements IProductCRUDService {
 	}
 
 	public AbstractProduct createProduct(
-			IndividualisedProductItem prod) {
-		return (IndividualisedProductItem)this.productCRUD.createObject(prod);
+			AbstractProduct prod) {
+		return (AbstractProduct) this.productCRUD.createObject(prod);
 
 	}
 

@@ -28,7 +28,7 @@ import java.util.List;
 public interface IProductCRUDService {
 
 	@POST
-	public AbstractProduct createProduct(IndividualisedProductItem prod);
+	public AbstractProduct createProduct(AbstractProduct prod);
 
 	@GET
 	public List<AbstractProduct> readAllProducts();

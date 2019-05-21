@@ -210,6 +210,9 @@ public class ShowTouchpointService {
 				dialog.setAlwaysOnTop(true);
 				dialog.setVisible(true);
 			}
+			else if (response.getStatusLine().getStatusCode() == HttpStatus.SC_NOT_FOUND){
+				throw new Exception("404 Not Found");
+			}
 			
 			EntityUtils.consume(response.getEntity());
 		}

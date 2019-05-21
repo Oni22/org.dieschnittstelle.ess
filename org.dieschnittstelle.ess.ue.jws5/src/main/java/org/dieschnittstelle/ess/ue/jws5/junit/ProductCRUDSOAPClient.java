@@ -12,7 +12,6 @@ import org.dieschnittstelle.ess.jws.IProductCRUDService;
 
 public class ProductCRUDSOAPClient {
 
-
 	private IProductCRUDService serviceProxy;
 
 	protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(ProductCRUDSOAPClient.class);

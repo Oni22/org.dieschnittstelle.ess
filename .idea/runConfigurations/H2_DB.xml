@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="H2 DB" type="JarApplication" singleton="true">
-    <option name="JAR_PATH" value="$PROJECT_DIR$/../wildfly-16.0.0.Final/modules/system/layers/base/com/h2database/h2/main/h2-1.4.193.jar" />
-    <option name="WORKING_DIRECTORY" value="C:\Users\Lenovo\Documents\Dev\Ess" />
+    <option name="JAR_PATH" value="/Applications/wildfly-16.0.0.Final/modules/system/layers/base/com/h2database/h2/main/h2-1.4.193.jar" />
+    <option name="WORKING_DIRECTORY" value="/Applications/wildfly-16.0.0.Final" />
     <option name="ALTERNATIVE_JRE_PATH" />
     <method v="2" />
   </configuration>

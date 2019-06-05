@@ -1,6 +1,0 @@
-org/dieschnittstelle/ess/ser/HttpTrafficLoggingFilter.class
-org/dieschnittstelle/ess/jrs/WebAPIRoot.class
-org/dieschnittstelle/ess/jws/TouchpointCRUDService.class
-org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceRESTImpl.class
-org/dieschnittstelle/ess/jrs/ITouchpointCRUDServiceREST.class
-org/dieschnittstelle/ess/ser/TouchpointServletContextListener.class

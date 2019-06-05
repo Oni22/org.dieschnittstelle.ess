@@ -2,7 +2,12 @@ package org.dieschnittstelle.ess.ejb.ejbmodule.erp;
 
 import java.util.List;
 
+import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.PointOfSaleCRUDLocal;
+import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.StockItemCRUDLocal;
 import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
+
+import javax.ejb.EJB;
+import javax.ejb.Singleton;
 
 /**
  * TODO JPA4:

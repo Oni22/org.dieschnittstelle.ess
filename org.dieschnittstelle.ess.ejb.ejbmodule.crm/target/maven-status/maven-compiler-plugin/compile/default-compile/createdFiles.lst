@@ -2,6 +2,7 @@ org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRESTServiceImpl.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemoteAsync.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDLocal.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDRemote.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/ProductCRUDStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDLocal.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDStateless.class

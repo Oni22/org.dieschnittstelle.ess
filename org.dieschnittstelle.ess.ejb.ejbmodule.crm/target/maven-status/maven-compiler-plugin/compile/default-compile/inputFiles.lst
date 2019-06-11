@@ -10,7 +10,6 @@
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDLocal.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/RESTWebAPI.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartStateful.java
-/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/ProductCRUDStateless.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRemote.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRESTService.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStatelessAsync.java

@@ -2,6 +2,7 @@ package org.dieschnittstelle.ess.ejb.ejbmodule.erp;
 
 import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.PointOfSaleCRUDLocal;
 import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.StockItemCRUDLocal;
+import org.dieschnittstelle.ess.entities.erp.AbstractProduct;
 import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
 import org.dieschnittstelle.ess.entities.erp.PointOfSale;
 import org.dieschnittstelle.ess.entities.erp.StockItem;
@@ -10,7 +11,10 @@ import javax.ejb.EJB;
 import javax.ejb.Remote;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
+import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 /*
@@ -47,31 +51,73 @@ public class StockSystemSingleton  implements StockSystemRemote{
     }
     @Override
     public void removeFromStock(IndividualisedProductItem product, long pointOfSaleId, int units) {
-
+        addToStock(product,pointOfSaleId,-units);
     }
 
     @Override
     public List<IndividualisedProductItem> getProductsOnStock(long pointOfSaleId) {
-        return null;
+
+        List<IndividualisedProductItem> pi = new ArrayList<>();
+
+        PointOfSale p = pointCRUD.readPointOfSale(pointOfSaleId);
+        List<StockItem> si = stockCRUD.readStockItemsForPointOfSale(p);
+
+        for(StockItem s : si){
+            pi.add(s.getProduct());
+        }
+
+        return pi;
+
     }
 
     @Override
     public List<IndividualisedProductItem> getAllProductsOnStock() {
-        return null;
+
+        List<IndividualisedProductItem> pi = new ArrayList<>();
+        List<PointOfSale> points = pointCRUD.readAllPointsOfSale();
+
+        for(PointOfSale p : points){
+            for(IndividualisedProductItem i : getProductsOnStock(p.getId())){
+                if(!pi.contains(i)){
+                    pi.add(i);
+                }
+            }
+        }
+
+        return pi;
     }
 
     @Override
     public int getUnitsOnStock(IndividualisedProductItem product, long pointOfSaleId) {
-        return 0;
+
+        PointOfSale ps = pointCRUD.readPointOfSale(pointOfSaleId);
+
+        StockItem si = stockCRUD.readStockItem(product,ps);
+
+        if(si == null){
+            return 0;
+        }
+
+        return si.getUnits();
     }
 
     @Override
     public int getTotalUnitsOnStock(IndividualisedProductItem product) {
-        return 0;
+
+        return stockCRUD.readStockItemsForProduct(product)
+                .stream()
+                .mapToInt(si -> si.getUnits())
+                .sum();
     }
 
+	 /* here you can use readStockItemsForProduct() and create a list of the stock items'
+         pointOfSale Ids*/
     @Override
     public List<Long> getPointsOfSale(IndividualisedProductItem product) {
-        return null;
+
+        return stockCRUD.readStockItemsForProduct(product)
+                .stream()
+                .map(si -> si.getPos().getId())
+                .collect(Collectors.toList());
     }
 }

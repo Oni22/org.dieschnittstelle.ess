@@ -33,21 +33,26 @@ public class StockItemCRUDStateless implements StockItemCRUDLocal {
 
     @Override
     public StockItem updateStockItem(StockItem item) {
-        return null;
+        return em.merge(item);
     }
 
     @Override
     public List<StockItem> readAllStockItems() {
-        return null;
+        return em.createQuery("SELECT p FROM StockItem s AS p").getResultList();
+
     }
 
     @Override
     public List<StockItem> readStockItemsForProduct(IndividualisedProductItem prod) {
-        return null;
+
+        return em.createQuery("SELECT t FROM StockItem AS t WHERE t.product =" + prod.getId()).getResultList();
+
     }
 
     @Override
     public List<StockItem> readStockItemsForPointOfSale(PointOfSale pos) {
-        return null;
+        return em.createQuery("SELECT t FROM StockItem AS t WHERE t.pos =" + pos.getId()).getResultList();
+
+
     }
 }

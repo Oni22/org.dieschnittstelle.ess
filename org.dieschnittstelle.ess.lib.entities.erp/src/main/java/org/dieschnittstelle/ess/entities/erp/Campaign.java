@@ -10,6 +10,8 @@ import org.apache.logging.log4j.Logger;
 
 import javax.persistence.*;
 
+//TODO: CONNECTION REFUSED ERROR TRIES TO CONNECT TO 8888 instead of 8080 TestProductRestServices
+
 @Entity
 public class Campaign extends AbstractProduct implements Serializable {
 

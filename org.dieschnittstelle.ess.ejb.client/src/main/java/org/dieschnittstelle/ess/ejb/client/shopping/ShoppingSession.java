@@ -17,6 +17,9 @@ import org.dieschnittstelle.ess.ejb.client.ejbclients.ShoppingCartClient;
 import org.dieschnittstelle.ess.entities.erp.AbstractProduct;
 import org.dieschnittstelle.ess.entities.erp.Campaign;
 
+import javax.ejb.EJB;
+import javax.ejb.Stateful;
+
 public class ShoppingSession implements ShoppingBusinessDelegate {
 
 	protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(ShoppingSession.class);

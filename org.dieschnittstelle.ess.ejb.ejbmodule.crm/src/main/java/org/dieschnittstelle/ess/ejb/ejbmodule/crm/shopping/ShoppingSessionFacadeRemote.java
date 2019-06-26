@@ -5,6 +5,9 @@ import org.dieschnittstelle.ess.entities.crm.AbstractTouchpoint;
 import org.dieschnittstelle.ess.entities.crm.Customer;
 import org.dieschnittstelle.ess.entities.erp.AbstractProduct;
 
+import javax.ejb.Remote;
+import javax.ejb.Stateful;
+
 public interface ShoppingSessionFacadeRemote {
 
 	public void setTouchpoint(AbstractTouchpoint touchpoint);

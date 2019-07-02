@@ -1,0 +1,6 @@
+org\dieschnittstelle\ess\wsv\interpreter\json\JSONObjectSerialiser.class
+org\dieschnittstelle\ess\wsv\client\AccessRESTServiceWithInterpreter.class
+org\dieschnittstelle\ess\wsv\interpreter\JAXRSClientInterpreter.class
+org\dieschnittstelle\ess\wsv\client\service\ITouchpointCRUDService.class
+org\dieschnittstelle\ess\wsv\interpreter\json\ObjectMappingException.class
+org\dieschnittstelle\ess\wsv\interpreter\json\JSONObjectMapper.class

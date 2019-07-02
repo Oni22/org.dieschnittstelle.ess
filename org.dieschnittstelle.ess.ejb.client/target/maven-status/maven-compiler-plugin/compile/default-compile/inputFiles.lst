@@ -4,7 +4,6 @@
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/CustomerCRUDClient.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/CustomerTransactionCRUDClient.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java
-/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/Constants.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/junit/TestStockSystem.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/junit/TestAll.java

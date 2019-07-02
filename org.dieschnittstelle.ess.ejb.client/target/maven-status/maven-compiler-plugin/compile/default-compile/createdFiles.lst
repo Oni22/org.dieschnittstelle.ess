@@ -19,7 +19,6 @@ org/dieschnittstelle/ess/ejb/client/demos/CreateTouchpoints.class
 org/dieschnittstelle/ess/ejb/client/demos/ShowConcurrentEntityAccess.class
 org/dieschnittstelle/ess/ejb/client/junit/TestStockSystem.class
 org/dieschnittstelle/ess/ejb/client/ejbclients/ProductCRUDClient.class
-org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.class
 org/dieschnittstelle/ess/ejb/client/ejbclients/ShoppingCartClient.class
 org/dieschnittstelle/ess/ejb/client/junit/TestAll.class
 org/dieschnittstelle/ess/ejb/client/TotalUsecase.class

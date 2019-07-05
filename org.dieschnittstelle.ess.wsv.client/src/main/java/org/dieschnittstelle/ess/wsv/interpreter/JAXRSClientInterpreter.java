@@ -2,10 +2,15 @@ package org.dieschnittstelle.ess.wsv.interpreter;
 
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonSerializer;
+import com.fasterxml.jackson.databind.SerializerProvider;
 import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.GET;
@@ -80,7 +85,7 @@ public class JAXRSClientInterpreter implements InvocationHandler {
         // TODO: check whether we have method arguments - only consider pathparam annotations (if any) on the first argument here - if no args are passed, the value of args is null! if no pathparam annotation is present assume that the argument value is passed via the body of the http request
         if (args != null && args.length > 0) {
             if (meth.getParameterAnnotations()[0].length > 0 && meth.getParameterAnnotations()[0][0].annotationType() == PathParam.class) {
-                //meth.getParameterAnnotations()[0][0]
+
                 // TODO: handle PathParam on the first argument - do not forget that in this case we might have a second argument providing a bodyValue
                 // TODO: if we have a path param, we need to replace the corresponding pattern in the url with the parameter value
             }
@@ -104,14 +109,20 @@ public class JAXRSClientInterpreter implements InvocationHandler {
         if (bodyValue != null) {
 
             // TODO: use a ByteArrayOutputStream for writing json
+            ByteArrayOutputStream bao = new ByteArrayOutputStream();
 
             // TODO: write the object to the stream using the jsonSerialiser
+            jsonSerialiser.writeObject(bodyValue,bao);
 
             // TODO: create an ByteArrayEntity from the stream's content
+            bae = new ByteArrayEntity(bao.toByteArray());
 
             // TODO: set the entity on the request, which must be cast to HttpEntityEnclosingRequest
 
+
+
             // TODO: and add a content type header for the request
+            request.addHeader("Content-Type","application/json");
 
         }
 
@@ -130,6 +141,15 @@ public class JAXRSClientInterpreter implements InvocationHandler {
 
             // TODO: convert the resonse body to a java object of an appropriate type considering the return type of the method and set the object as value of returnValue
             // if the return type of the mis a generic type, getGenericReturnType() will return a non null result, otherwise use getReturnType()
+
+
+            if(meth.getGenericReturnType() != null){
+                returnValue
+            }
+            else {
+                returnValue =  response.getEntity();
+            }
+
 
             // don't forget to cleanup the entity using EntityUtils.consume()
             if (bae != null) {

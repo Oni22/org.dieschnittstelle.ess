@@ -22,7 +22,7 @@ public class ShoppingSessionFacadeClient implements ShoppingBusinessDelegate {
 
 	public ShoppingSessionFacadeClient() {
 		/* TODO: instantiate the proxy using the EJBProxyFactory (see the other client classes) */
-		ssf = (ShoppingSessionFacadeRemote) EJBProxyFactory.getInstance().getProxy(ShoppingSessionFacadeRemote.class, "ejb:org.dieschnittstelle.ess.ejb/org.dieschnittstelle.ess.ejb.ejbmodule.crm/ShoppingSessionFacade!org.dieschnittstelle.ess.ejb.ejbmodule.crm.shopping.ShoppingSessionFacadeRemote?stateful");
+		ssf = (ShoppingSessionFacadeRemote) EJBProxyFactory.getInstance().getProxy(ShoppingSessionFacadeRemote.class, "ejb:org.dieschnittstelle.ess.ejb/org.dieschnittstelle.ess.ejb.ejbmodule.crm/ShoppingSessionFacadeStateful!org.dieschnittstelle.ess.ejb.ejbmodule.crm.shopping.ShoppingSessionFacadeRemote?stateful");
 	}
 
 	/* TODO: implement the following methods using the proxy */

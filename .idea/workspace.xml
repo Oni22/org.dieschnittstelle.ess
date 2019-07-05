@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f1a21b-bb1a-4327-9849-ff864ff90534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/jrs-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/jrs-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/jrs-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/jrs-client-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/jrs-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/jrs-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-crm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-crm-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-erp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-erp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/lib-entities-crm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/lib-entities-crm-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/lib-entities-erp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/lib-entities-erp-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/lib-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/lib-utils-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/wsv-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/wsv-client.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/org.dieschnittstelle.ess.applications/target/" />
@@ -516,7 +494,7 @@
       <workItem from="1561369257762" duration="409000" />
       <workItem from="1561383981429" duration="5986000" />
       <workItem from="1561459288949" duration="587000" />
-      <workItem from="1562055061616" duration="16355000" />
+      <workItem from="1562055061616" duration="16957000" />
     </task>
     <servers />
   </component>
@@ -553,7 +531,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109210000" />
+    <option name="totallyTimeSpent" value="109812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +557,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.1634103" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.053285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

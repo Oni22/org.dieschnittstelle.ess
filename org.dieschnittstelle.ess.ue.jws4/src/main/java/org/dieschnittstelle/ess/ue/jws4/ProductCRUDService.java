@@ -10,11 +10,13 @@ import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.ParameterStyle;
 import javax.servlet.ServletContext;
 import javax.ws.rs.GET;
+import javax.ws.rs.core.Context;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.ws.WebServiceContext;
 import javax.xml.ws.handler.MessageContext;
 
 import org.dieschnittstelle.ess.entities.GenericCRUDExecutor;
+import org.dieschnittstelle.ess.entities.crm.AbstractTouchpoint;
 import org.dieschnittstelle.ess.entities.erp.AbstractProduct;
 import org.dieschnittstelle.ess.entities.erp.Campaign;
 import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
@@ -25,26 +27,56 @@ import org.dieschnittstelle.ess.entities.erp.ProductType;
  * die Umetzung der Methoden die Instanz von GenericCRUDExecutor<AbstractProduct>,
  * die Sie aus dem ServletContext auslesen koennen
  */
+@WebService(targetNamespace = "http://dieschnittstelle.org/ess/jws", name = "IProductCRUDService", serviceName = "ProductCRUDWebService", portName = "ProductCRUDPort")
+@SOAPBinding(parameterStyle = SOAPBinding.ParameterStyle.WRAPPED)
 public class ProductCRUDService {
 
+	@Resource
+	private WebServiceContext wscontext;
+
+	public ProductCRUDService() {
+
+	}
+
+	@WebMethod
 	public List<AbstractProduct> readAllProducts() {
-		return new ArrayList();
+		GenericCRUDExecutor<AbstractProduct> products = (GenericCRUDExecutor<AbstractProduct>) ((ServletContext) wscontext
+				.getMessageContext().get(MessageContext.SERVLET_CONTEXT))
+				.getAttribute("productCRUD");
+		return products.readAllObjects();
 	}
 
+	@WebMethod
 	public AbstractProduct createProduct(AbstractProduct product) {
-		return product;
+		GenericCRUDExecutor<AbstractProduct> products = (GenericCRUDExecutor<AbstractProduct>) ((ServletContext) wscontext
+				.getMessageContext().get(MessageContext.SERVLET_CONTEXT))
+				.getAttribute("productCRUD");
+		return products.createObject(product);
 	}
 
+	@WebMethod
 	public AbstractProduct updateProduct(AbstractProduct update) {
-		return update;
+		GenericCRUDExecutor<AbstractProduct> products = (GenericCRUDExecutor<AbstractProduct>) ((ServletContext) wscontext
+				.getMessageContext().get(MessageContext.SERVLET_CONTEXT))
+				.getAttribute("productCRUD");
+		return products.updateObject(update);
 	}
 
+	@WebMethod
 	public boolean deleteProduct(long id) {
-		return false;
+		GenericCRUDExecutor<AbstractProduct> products = (GenericCRUDExecutor<AbstractProduct>) ((ServletContext) wscontext
+				.getMessageContext().get(MessageContext.SERVLET_CONTEXT))
+				.getAttribute("productCRUD");
+		return products.deleteObject(id);
 	}
 
+	@WebMethod
 	public IndividualisedProductItem readProduct(long id) {
-		return null;
+		GenericCRUDExecutor<AbstractProduct> products = (GenericCRUDExecutor<AbstractProduct>) ((ServletContext) wscontext
+				.getMessageContext().get(MessageContext.SERVLET_CONTEXT))
+				.getAttribute("productCRUD");
+		return (IndividualisedProductItem)products.readObject(id);
 	}
 
 }
+

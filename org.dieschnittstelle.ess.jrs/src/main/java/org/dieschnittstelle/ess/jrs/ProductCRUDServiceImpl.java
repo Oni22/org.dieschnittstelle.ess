@@ -2,13 +2,14 @@ package org.dieschnittstelle.ess.jrs;
 
 import java.util.List;
 
-import org.apache.http.HttpRequest;
 import org.dieschnittstelle.ess.entities.GenericCRUDExecutor;
+import org.dieschnittstelle.ess.entities.crm.AbstractTouchpoint;
 import org.dieschnittstelle.ess.entities.erp.AbstractProduct;
 import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
 
 import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
+import javax.ws.rs.*;
 import javax.ws.rs.core.Context;
 
 /*
@@ -17,41 +18,37 @@ UE JRS2: implementieren Sie hier die im Interface deklarierten Methoden
 
 public class ProductCRUDServiceImpl implements IProductCRUDService {
 
-	public GenericCRUDExecutor<AbstractProduct> product;
+	private GenericCRUDExecutor<AbstractProduct> productCRUD;
 
-	public ProductCRUDServiceImpl (@Context ServletContext context, HttpServletRequest request){
-		this.product = (GenericCRUDExecutor<AbstractProduct>)context.getAttribute("productCRUD");
+	public ProductCRUDServiceImpl(@Context ServletContext servletContext, @Context HttpServletRequest request) {
+
+		// read out the dataAccessor
+		this.productCRUD = (GenericCRUDExecutor<AbstractProduct>)servletContext.getAttribute("productCRUD");
 	}
 
-	@Override
-	public IndividualisedProductItem createProduct(
-			IndividualisedProductItem prod) {
-		return (IndividualisedProductItem)product.createObject(prod);
+	public AbstractProduct createProduct(
+			AbstractProduct prod) {
+		return (AbstractProduct) this.productCRUD.createObject(prod);
+
 	}
 
-	@Override
-	public List<IndividualisedProductItem> readAllProducts() {
-		// TODO Auto-generated method stub
-		return product.readAllObjects();
+	public List<AbstractProduct> readAllProducts() {
+		return (List)this.productCRUD.readAllObjects();
 	}
 
-	@Override
-	public IndividualisedProductItem updateProduct(long id,
-			IndividualisedProductItem update) {
-		// TODO Auto-generated method stub
-		return null;
+
+	public AbstractProduct updateProduct(long id,
+										 AbstractProduct update) {
+		update.setId(id);
+		return (AbstractProduct)this.productCRUD.updateObject(update);
 	}
 
-	@Override
 	public boolean deleteProduct(long id) {
-		// TODO Auto-generated method stub
-		return false;
+		return this.productCRUD.deleteObject(id);
 	}
 
-	@Override
-	public IndividualisedProductItem readProduct(long id) {
-		// TODO Auto-generated method stub
-		return null;
+	public AbstractProduct readProduct(long id) {
+		return (AbstractProduct)this.productCRUD.readObject(id);
 	}
 	
 }

@@ -1,13 +1,20 @@
 package org.dieschnittstelle.ess.ser.client;
 
+import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 import java.util.List;
 import java.util.concurrent.Future;
 
+import org.apache.http.HttpEntity;
+import org.apache.http.HttpRequest;
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
+import org.apache.http.client.methods.HttpDelete;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.ByteArrayEntity;
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.util.EntityUtils;
 import org.apache.logging.log4j.Logger;
@@ -15,6 +22,8 @@ import org.dieschnittstelle.ess.entities.crm.AbstractTouchpoint;
 import org.dieschnittstelle.ess.entities.crm.Address;
 import org.dieschnittstelle.ess.entities.crm.StationaryTouchpoint;
 import org.dieschnittstelle.ess.utils.Http;
+
+import javax.swing.*;
 
 import static org.dieschnittstelle.ess.utils.Utils.*;
 
@@ -61,6 +70,7 @@ public class ShowTouchpointService {
 		}
 		client = Http.createAsyncClient();
 		client.start();
+
 	}
 
 	/**
@@ -179,11 +189,38 @@ public class ShowTouchpointService {
 	 * @param tp
 	 */
 	public void deleteTouchpoint(AbstractTouchpoint tp) {
+
 		logger.info("deleteTouchpoint(): will delete: " + tp);
+
 
 		createClient();
 
 		logger.debug("client running: {}",client.isRunning());
+
+		try
+		{
+			HttpDelete hd = new HttpDelete("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints/" + tp.getId());
+
+			Future<HttpResponse> res = client.execute(hd, null);
+
+			HttpResponse response = res.get();
+
+			if(response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
+				JOptionPane optionPanel = new JOptionPane("Succesfully deleted!",JOptionPane.WARNING_MESSAGE);
+				JDialog dialog = optionPanel.createDialog("Deleted!");
+				dialog.setAlwaysOnTop(true);
+				dialog.setVisible(true);
+			}
+			else if (response.getStatusLine().getStatusCode() == HttpStatus.SC_NOT_FOUND){
+				throw new Exception("404 Not Found");
+			}
+			
+			EntityUtils.consume(response.getEntity());
+		}
+		catch (Exception e){
+
+		}
+
 
 		// once you have received a response this is necessary to be able to
 		// use the client for subsequent requests:
@@ -211,28 +248,45 @@ public class ShowTouchpointService {
 		try {
 
 			// create post request for the api/touchpoints uri
+			HttpPost request = new HttpPost("http://localhost:8888/org.dieschnittstelle.ess.ser/api/touchpoints");
 
 			// create an ObjectOutputStream from a ByteArrayOutputStream - the
 			// latter must be accessible via a variable
+			ByteArrayOutputStream bos = new ByteArrayOutputStream();
 
 			// write the object to the output stream
-
+			ObjectOutputStream oos = new ObjectOutputStream(bos);
+			oos.writeObject(tp);
 			// create a ByteArrayEntity and pass it the byte array from the
 			// output stream
+			ByteArrayEntity bae = new ByteArrayEntity(bos.toByteArray());
 
 			// set the entity on the request
+			request.setEntity(bae);
 
-			// execute the request, which will return a Future<HttpResponse> object
 
 			// get the response from the Future object
+			Future<HttpResponse> newFuture = client.execute(request, null);
 
 			// log the status line
-
+			HttpResponse response = newFuture.get();
 			// evaluate the result using getStatusLine(), use constants in
 			// HttpStatus
+			show("Got Response: " + response);
 
 			/* if successful: */
+			if(response.getStatusLine().getStatusCode() == HttpStatus.SC_OK)
+			{
 
+				ObjectInputStream ois = new ObjectInputStream(response.getEntity().getContent());
+				AbstractTouchpoint abstractTouchpoint = (AbstractTouchpoint) ois.readObject();
+
+				EntityUtils.consume(response.getEntity());
+
+				show("sent touchPoint: " + tp);
+				show("received touchPoint: " + abstractTouchpoint);
+				return abstractTouchpoint;
+			}
 			// create an object input stream using getContent() from the
 			// response entity (accessible via getEntity())
 

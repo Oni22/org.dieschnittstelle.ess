@@ -2,13 +2,20 @@ package org.dieschnittstelle.ess.ejb.ejbmodule.erp;
 
 import java.util.List;
 
+import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.PointOfSaleCRUDLocal;
+import org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud.StockItemCRUDLocal;
 import org.dieschnittstelle.ess.entities.erp.IndividualisedProductItem;
+
+import javax.ejb.EJB;
+import javax.ejb.Remote;
+import javax.ejb.Singleton;
 
 /**
  * TODO JPA4:
  * this interface shall be implemented using the two CRUD EJBs for PointOfSale and StockItem via
  * local interface below, comments will give some hints at how the implementation could be done
  */
+@Singleton
 public interface StockSystemRemote {
 
 	/**

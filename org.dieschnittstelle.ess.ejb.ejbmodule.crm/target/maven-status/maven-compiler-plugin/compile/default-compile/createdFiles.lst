@@ -1,6 +1,7 @@
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRESTServiceImpl.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemoteAsync.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDLocal.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDRemote.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDLocal.class
@@ -11,10 +12,13 @@ org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDRemote.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStatelessAsync.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeLocal.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemote.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingException$ShoppingSessionExceptionReason.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingLocal.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRESTService.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDRemote.class
 org/dieschnittstelle/ess/ejb/interceptors/LoggingInterceptor.class

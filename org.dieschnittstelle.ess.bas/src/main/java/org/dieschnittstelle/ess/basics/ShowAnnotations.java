@@ -1,21 +1,17 @@
 package org.dieschnittstelle.ess.basics;
-import java.lang.annotation.Annotation;
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
-import java.lang.reflect.*;
-import java.util.ArrayList;
+
 
 import org.dieschnittstelle.ess.basics.annotations.AnnotatedStockItemBuilder;
 import org.dieschnittstelle.ess.basics.annotations.StockItemProxyImpl;
 
+import java.lang.reflect.Field;
+import java.lang.annotation.*;
+import java.lang.reflect.Method;
+
 import static org.dieschnittstelle.ess.utils.Utils.*;
 
-public class ShowAnnotations {
 
-	@Retention(RetentionPolicy.RUNTIME)
-	public @interface DisplayAs{
-		String value();
-	}
+public class ShowAnnotations {
 
 	public static void main(String[] args) {
 		// we initialise the collection
@@ -36,36 +32,78 @@ public class ShowAnnotations {
 	}
 
 	/*
-	 * UE BAS2 
+	 * UE BAS2
 	 */
-	private static void showAttributes(Object consumable) {
-
-		Field[] fields = consumable.getClass().getDeclaredFields();
-		String s = "";
-
-		for(int i = 0; i < fields.length; i++){
-
-			fields[i].setAccessible(true);
-
-			DisplayAs da = null;
-
-			//Check if this field has the annotation DisplayAs
-			if(fields[i].isAnnotationPresent(DisplayAs.class))
-				da = fields[i].getAnnotation(DisplayAs.class);
 
 
-			try{
+	private static void showAttributes(Object consumable)
+	{
 
-				s += "{<" + consumable.getClass().getSimpleName() + ">" + " <" +
-						(da == null ? fields[i].getName() : da.value()) + ">:<" +
-						fields[i].get(consumable) + ">},\n";
+		Class klass = consumable.getClass();
+		String result = "{"+klass.getSimpleName();
 
-				System.out.println(s);
+		for(Field field : klass.getDeclaredFields())
+		{
+			field.setAccessible(true);
+			result +=  " " +GetAttributeName(field) + ":";
+
+			try
+			{
+				result += field.get(consumable).toString() + ",";
 			}
-			catch (Exception e){
-				System.out.println(e);
+			catch (Exception e)
+			{
+				result += "Attribute does not match class";
 			}
 		}
+
+		char[] stringAsArray = result.toCharArray();
+		stringAsArray[stringAsArray.length -1] = '}';
+
+		result = String.valueOf(stringAsArray);
+
+		System.out.println(result);
 	}
 
+
+	private static String GetAttributeName(Field checkForAnnotation)
+	{
+		String outPut = " ";
+
+
+		Annotation[] annotations =  checkForAnnotation.getDeclaredAnnotations();
+
+
+			for(int i =0; i<= annotations.length-1;i++)
+			{
+
+
+				if(annotations[i].annotationType().toString().contains("DisplayAs"))
+				{
+						Class<? extends Annotation> type = annotations[i].annotationType();
+
+						for (Method method : type.getDeclaredMethods())
+						{
+							method.setAccessible(true);
+							try
+							{
+								Object value = method.invoke(annotations[i], (Object[]) null);
+								//System.out.println(" " + method.getName() + ": " + value);
+								return (String) value;
+							}
+							catch(Exception e)
+							{
+								return checkForAnnotation.getName();
+							}
+						}
+					}
+
+			}
+
+
+		return checkForAnnotation.getName();
+
+	}
 }
+
+

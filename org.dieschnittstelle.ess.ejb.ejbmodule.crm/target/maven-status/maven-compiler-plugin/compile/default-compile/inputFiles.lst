@@ -1,5 +1,6 @@
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartLocal.java
+/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingLocal.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDRemote.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStateless.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java
@@ -15,7 +16,9 @@
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStatelessAsync.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDLocal.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDStateless.java
+/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDRemote.java
+/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeLocal.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemoteAsync.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingRemote.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDRemote.java
@@ -23,5 +26,6 @@
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRESTServiceImpl.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/interceptors/LoggingInterceptor.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDLocal.java
+/Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemote.java
 /Users/oni/Documents/ess/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessLocal.java

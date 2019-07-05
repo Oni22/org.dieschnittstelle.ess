@@ -3,15 +3,21 @@ package org.dieschnittstelle.ess.wsv.interpreter;
 
 import java.io.ByteArrayOutputStream;
 import java.lang.annotation.Annotation;
+import java.io.IOException;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
+
 import java.net.URI;
 
 import org.apache.http.*;
 import org.apache.http.client.methods.*;
 import org.apache.http.params.HttpParams;
+
+import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.databind.JsonSerializer;
+import com.fasterxml.jackson.databind.SerializerProvider;
 import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.*;
@@ -95,6 +101,7 @@ public class JAXRSClientInterpreter implements InvocationHandler
         if (args != null && args.length > 0)
         {
             if (meth.getParameterAnnotations()[0].length > 0 && meth.getParameterAnnotations()[0][0].annotationType() == PathParam.class) {
+
                 // TODO: handle PathParam on the first argument - do not forget that in this case we might have a second argument providing a bodyValue
                 url = url.replace(meth.getAnnotation(Path.class).value(), "/" + args[0]);
 
@@ -147,7 +154,7 @@ public class JAXRSClientInterpreter implements InvocationHandler
             ByteArrayOutputStream bao = new ByteArrayOutputStream();
 
             // TODO: write the object to the stream using the jsonSerialiser
-            jsonSerialiser.writeObject(bodyValue, bao);
+            jsonSerialiser.writeObject(bodyValue,bao);
 
             // TODO: create an ByteArrayEntity from the stream's content
             bae = new ByteArrayEntity(bao.toByteArray());
@@ -157,6 +164,10 @@ public class JAXRSClientInterpreter implements InvocationHandler
             // TODO: and add a content type header for the request
             Heer.setEntity(bae);
             Heer.setHeader(HttpHeaders.CONTENT_TYPE, MediaType.APPLICATION_JSON);
+
+            // TODO: and add a content type header for the request
+            request.addHeader("Content-Type","application/json");
+
         }
 
         logger.info("invoke(): executing request: " + request);
@@ -175,13 +186,14 @@ public class JAXRSClientInterpreter implements InvocationHandler
             // if the return type of the mis a generic type, getGenericReturnType() will return a non null result, otherwise use getReturnType()
             returnValue = response.getEntity();
             Type returnType;
-
+            
             if(meth.getGenericReturnType() != null){
                 returnType = meth.getGenericReturnType();
             }
             else{
                 returnType = meth.getReturnType();
             }
+
             // don't forget to cleanup the entity using EntityUtils.consume()
             if (bae != null)
             {

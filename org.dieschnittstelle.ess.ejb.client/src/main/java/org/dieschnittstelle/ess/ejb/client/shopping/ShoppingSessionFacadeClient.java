@@ -1,6 +1,7 @@
 package org.dieschnittstelle.ess.ejb.client.shopping;
 
 import org.apache.logging.log4j.Logger;
+
 import org.dieschnittstelle.ess.ejb.client.ejbclients.EJBProxyFactory;
 import org.dieschnittstelle.ess.ejb.ejbmodule.crm.ShoppingException;
 import org.dieschnittstelle.ess.ejb.ejbmodule.crm.shopping.ShoppingSessionFacade;

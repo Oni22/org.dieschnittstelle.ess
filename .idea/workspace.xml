@@ -294,6 +294,12 @@
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/TotalUsecase.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java" />
@@ -522,6 +528,15 @@
     </history-entry>
     <history-entry file="PAT__TestAll - 2019.07.08 at 13h 12m 27s.xml">
       <configuration name="PAT: TestAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PAT__TestAll - 2019.07.05 at 13h 21m 01s.xml">
+      <configuration name="PAT: TestAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 13h 21m 27s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 13h 25m 37s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">

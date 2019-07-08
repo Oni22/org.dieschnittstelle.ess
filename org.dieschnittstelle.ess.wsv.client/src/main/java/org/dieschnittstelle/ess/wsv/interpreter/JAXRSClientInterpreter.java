@@ -95,6 +95,7 @@ public class JAXRSClientInterpreter implements InvocationHandler
         if (args != null && args.length > 0)
         {
             if (meth.getParameterAnnotations()[0].length > 0 && meth.getParameterAnnotations()[0][0].annotationType() == PathParam.class) {
+
                 // TODO: handle PathParam on the first argument - do not forget that in this case we might have a second argument providing a bodyValue
                 url = url.replace(meth.getAnnotation(Path.class).value(), "/" + args[0]);
 

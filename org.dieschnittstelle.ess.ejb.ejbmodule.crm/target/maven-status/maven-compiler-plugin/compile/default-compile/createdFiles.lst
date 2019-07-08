@@ -8,6 +8,7 @@ org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDStateless.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessLocal.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartStateful.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDStateless.class
+org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDRemote.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStatelessAsync.class
 org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.class

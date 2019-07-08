@@ -5,28 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4f1a21b-bb1a-4327-9849-ff864ff90534" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/classes/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/classes/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/classes/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/ejb-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/ejb-client-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/classes/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/classes/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/classes/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/classes/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/ejb-ejbmodule-crm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/ejb-ejbmodule-crm-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/target/ejb-ejbmodule-erp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/target/ejb-ejbmodule-erp-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.webapp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.webapp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.webapp/target/org.dieschnittstelle.ess.ejb.webapp.war" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.webapp/target/org.dieschnittstelle.ess.ejb.webapp.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/log4j2.properties.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.entities.crm.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.entities.crm.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.entities.erp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.entities.erp.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.utils.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/lib/org.dieschnittstelle.ess.utils.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/META-INF/maven/org.dieschnittstelle.ess/ejb-ejbmodule-crm/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/META-INF/maven/org.dieschnittstelle.ess/ejb-ejbmodule-crm/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.crm.jar/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.erp.jar/META-INF/maven/org.dieschnittstelle.ess/ejb-ejbmodule-erp/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.ejbmodule.erp.jar/META-INF/maven/org.dieschnittstelle.ess/ejb-ejbmodule-erp/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.webapp.war/META-INF/maven/org.dieschnittstelle.ess/ejb-webapp/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/ejb-earapp-1.0-SNAPSHOT/org.dieschnittstelle.ess.ejb.webapp.war/META-INF/maven/org.dieschnittstelle.ess/ejb-webapp/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/org.dieschnittstelle.ess.ejb.ear" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb/target/org.dieschnittstelle.ess.ejb.ear" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/jrs-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/jrs-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/jrs-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/jrs-client-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/jrs-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/jrs-api-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-crm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-crm-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-erp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-entities-erp-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/jrs-webapp-1.0-SNAPSHOT/WEB-INF/lib/lib-utils-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/lib-entities-crm-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/lib-entities-crm-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/lib-entities-erp-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/lib-entities-erp-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/lib-utils-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/lib-utils-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.lib.utils/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/wsv-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/target/wsv-client-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/wsv-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/wsv-client.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,19 +114,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="192" column="98" selection-start-line="192" selection-start-column="98" selection-end-line="192" selection-end-column="98" />
+            <state relative-caret-position="120">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/AccessRESTServiceWithInterpreter.java">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="240">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStateless.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/src/main/java/org/dieschnittstelle/ess/entities/crm/CampaignExecution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/src/main/java/org/dieschnittstelle/ess/entities/erp/Campaign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -92,57 +191,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="60">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java">
+        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="105" column="34" lean-forward="true" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
-              <folding>
-                <element signature="e#2992#2993#0" expanded="true" />
-                <element signature="e#3032#3033#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/service/ITouchpointCRUDService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/ShowTouchpointRESTService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="75">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -152,6 +211,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -170,7 +230,16 @@
       <find>ProductCRUD</find>
       <find>global</find>
       <find>getProductsOnStock</find>
-      <find>crud</find>
+      <find>Shopping</find>
+      <find>ShoppingSessionFacadeClient</find>
+      <find>ShoppingSesstion</find>
+      <find>doShoppin</find>
+      <find>xShoppingSessionFacadeRemote</find>
+      <find>ShoppingSess</find>
+      <find>ShoppingSes</find>
+      <find>ShoppingSessionFacadeRemote</find>
+      <find>ShoppingSession</find>
+      <find>ShoppingSessionFacade</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,10 +248,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/resources/stockitems_reflection.xml" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/reflection/ReflectedStockItemBuilder.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/reflection/stockitemtypes/Chocolate.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/ShowAnnotations.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Milch.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/stockitemtypes/Schokolade.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java" />
@@ -195,6 +260,7 @@
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws5/pom.xml" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws5/src/main/java/org/dieschnittstelle/ess/ue/jws5/junit/ProductCRUDSOAPClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/crud/ProductCRUDRemote.java" />
@@ -213,12 +279,26 @@
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemRemote.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemSingleton.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/crud/StockItemCRUDStateless.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/service/ITouchpointCRUDService.java" />
-        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/AccessRESTServiceWithInterpreter.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDStateless.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShppingSessionFacadeRemote.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeRemote.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeLocal.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingLocal.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSession.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingSessionFacadeClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingSessionFacade.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/TotalUsecase.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java" />
         <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java" />
+        <option value="$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.java" />
       </list>
     </option>
   </component>
@@ -262,132 +342,19 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="20" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="811" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="0_SHARED" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ejb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ejb" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="org.dieschnittstelle.ess" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7_EJB+JPA+ADD+PAT" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ejb" type="462c0819:PsiDirectoryNode" />
-              <item name="crm" type="462c0819:PsiDirectoryNode" />
-              <item name="shopping" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,6 +370,10 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.dieschnittstelle.ess.ejb.ejbmodule.erp.crud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.dieschnittstelle.ess.ejb.ejbmodule.crm" />
+      <recent name="org.dieschnittstelle.ess.ejb.ejbmodule.crm.shopping" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/org.dieschnittstelle.ess.entities.erp.ws/src" />
@@ -421,7 +392,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PAT: TestShoppingSession">
+  <component name="RunManager" selected="Application.WSV: AccessRESTServiceWithInterpreter">
     <configuration name="TestProductRESTService" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="jrs-client" />
       <extension name="coverage">
@@ -513,47 +484,48 @@
       <workItem from="1560852149249" duration="10481000" />
       <workItem from="1561115081465" duration="876000" />
       <workItem from="1561118260037" duration="19000" />
-      <workItem from="1561369257762" duration="409000" />
-      <workItem from="1561383981429" duration="5986000" />
-      <workItem from="1561459288949" duration="587000" />
-      <workItem from="1562055061616" duration="16355000" />
+      <workItem from="1561369257762" duration="2820000" />
+      <workItem from="1561458159878" duration="6774000" />
+      <workItem from="1562054832570" duration="12867000" />
+      <workItem from="1562324779289" duration="4529000" />
+      <workItem from="1562336550668" duration="816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 14h 26m 20s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 13h 25m 37s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestProductCRUD - 2019.06.18 at 14h 29m 52s.xml">
-      <configuration name="EJB+JPA: TestProductCRUD" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 13h 32m 36s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestProductCRUD - 2019.06.18 at 14h 31m 51s.xml">
-      <configuration name="EJB+JPA: TestProductCRUD" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 14h 02m 34s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 14h 32m 16s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestAll - 2019.07.05 at 14h 02m 50s.xml">
+      <configuration name="PAT: TestAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 14h 36m 27s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 14h 04m 03s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 14h 39m 18s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestAll - 2019.07.05 at 14h 16m 57s.xml">
+      <configuration name="PAT: TestAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 14h 56m 15s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestAll - 2019.07.05 at 14h 18m 46s.xml">
+      <configuration name="PAT: TestAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.18 at 15h 00m 25s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.05 at 14h 18m 59s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestProductCRUD - 2019.06.21 at 13h 16m 10s.xml">
-      <configuration name="EJB+JPA: TestProductCRUD" configurationId="JUnit" />
+    <history-entry file="PAT__TestShoppingSession - 2019.07.08 at 13h 12m 05s.xml">
+      <configuration name="PAT: TestShoppingSession" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EJB+JPA__TestStockSystem - 2019.06.21 at 13h 16m 33s.xml">
-      <configuration name="EJB+JPA: TestStockSystem" configurationId="JUnit" />
+    <history-entry file="PAT__TestAll - 2019.07.08 at 13h 12m 27s.xml">
+      <configuration name="PAT: TestAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109210000" />
+    <option name="totallyTimeSpent" value="113679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +537,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="3" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.564257" visible="true" weight="0.29635626" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.564257" visible="true" weight="0.18526466" />
       <window_info id="Structure" order="1" sideWeight="0.3482143" side_tool="true" weight="0.27825466" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -578,8 +550,8 @@
       <window_info id="JavaEE:App" order="7" sideWeight="0.43574297" side_tool="true" weight="0.3040057" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.1634103" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.053285968" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.26987952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.12934631" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39759037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,17 +627,101 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/junit/TestStockSystem.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImplAsync.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="56" />
+        <state relative-caret-position="150">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/src/main/java/org/dieschnittstelle/ess/entities/erp/Campaign.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/WebAPIRoot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/crud/PointOfSaleCRUDLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="34" column="8" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemRESTService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jws.client/src/main/java/org/dieschnittstelle/ess/jws/client/ShowTouchpointSOAPService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessRemote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDStateless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#70#1" expanded="true" />
+            <element signature="e#0#102#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -682,34 +738,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/src/main/java/org/dieschnittstelle/ess/entities/crm/AbstractTouchpoint.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="65" column="89" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="89" />
+        <state relative-caret-position="75">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/src/main/java/org/dieschnittstelle/ess/entities/erp/ProductBundle.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/TouchpointCRUDRemote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="46" selection-start-column="46" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/crud/StockItemCRUDStateless.java" />
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/crud/ProductCRUDStateless.java" />
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="69" column="73" selection-start-line="69" selection-start-column="60" selection-end-line="69" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/StockSystemClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="75">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -720,289 +759,234 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jws/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDServiceREST.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerTransactionCRUDLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/crud/CustomerCRUDStateless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShppingSessionFacadeRemote.java" />
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeRemote.java" />
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartRemote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jws/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceRESTImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointCRUDExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointGUIServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointGUIServletFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServletAsync.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServletContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/AnnotatedStockItemBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/annotations/StockItemProxyImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.bas/src/main/java/org/dieschnittstelle/ess/basics/reflection/ReflectedStockItemBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-859">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/HttpTrafficLoggingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/WebAPIRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/TouchpointCRUDServiceImplAsync.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.erp/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/erp/StockSystemRemote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/ITouchpointCRUDService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/CustomerTransactionCRUDClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/junit/TestTouchpointService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="60">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/8.0/javaee-web-api-8.0.jar!/javax/servlet/http/HttpServlet.class">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/TouchpointAccessClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1751">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="105">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser/src/main/java/org/dieschnittstelle/ess/ser/TouchpointServiceServlet.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/CampaignTrackingClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-952">
-          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+        <state relative-caret-position="135">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ser.client/src/main/java/org/dieschnittstelle/ess/ser/client/ShowTouchpointService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/CustomerCRUDClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="212" column="13" selection-start-line="212" selection-start-column="13" selection-end-line="212" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="11" column="115" selection-start-line="11" selection-start-column="93" selection-end-line="11" selection-end-column="115" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jws/src/main/java/org/dieschnittstelle/ess/jws/TouchpointCRUDService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/ProductCRUDClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="297">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/TestProductRESTService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/StockSystemClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs/src/main/java/org/dieschnittstelle/ess/jrs/ProductCRUDServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingBusinessDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jws.client/src/main/java/org/dieschnittstelle/ess/jws/client/ShowTouchpointSOAPService.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/TotalUsecase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductCRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws5/src/main/java/org/dieschnittstelle/ess/ue/jws5/junit/ProductCRUDSOAPClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ue.jws4/src/main/java/org/dieschnittstelle/ess/ue/jws4/ProductServletContextListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/ShowTouchpointRESTService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.client/src/main/java/org/dieschnittstelle/ess/jrs/client/junit/ProductCRUDRESTClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar!/javax/ws/rs/Path.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/json/JSONObjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="79" column="32" lean-forward="true" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/json/ObjectMappingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/json/JSONObjectSerialiser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.jrs.api/src/main/java/org/dieschnittstelle/ess/jrs/IProductCRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/service/ITouchpointCRUDService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="450">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/interpreter/JAXRSClientInterpreter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="192" column="98" selection-start-line="192" selection-start-column="98" selection-end-line="192" selection-end-column="98" />
+        <state relative-caret-position="1155">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/AccessRESTServiceWithInterpreter.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/ShoppingCartStateful.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="210">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="24" column="106" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="106" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeStateful.java" />
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.wsv.client/src/main/java/org/dieschnittstelle/ess/wsv/client/service/ITouchpointCRUDService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/ejbclients/ShoppingCartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacadeClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="91">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="e#1456#1457#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.client/src/main/java/org/dieschnittstelle/ess/ejb/client/shopping/ShoppingSessionFacade.java">
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingRemote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="105" column="34" lean-forward="true" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingStateless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/TouchpointAccessStateless.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CustomerTrackingLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.crm/src/main/java/org/dieschnittstelle/ess/entities/crm/CampaignExecution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.lib.entities.erp/src/main/java/org/dieschnittstelle/ess/entities/erp/Campaign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacadeLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/CampaignTrackingSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/org.dieschnittstelle.ess.ejb.ejbmodule.crm/src/main/java/org/dieschnittstelle/ess/ejb/ejbmodule/crm/shopping/ShoppingSessionFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
-            <element signature="e#2992#2993#0" expanded="true" />
-            <element signature="e#3032#3033#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

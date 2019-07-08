@@ -23,7 +23,7 @@ import org.apache.logging.log4j.Logger;
  */
 @Startup
 @javax.ejb.ConcurrencyManagement(javax.ejb.ConcurrencyManagementType.CONTAINER)
-public class CampaignTrackingSingleton implements CampaignTrackingRemote {
+public class CampaignTrackingSingleton implements CampaignTrackingRemote, CampaignTrackingLocal {
 
 	protected static Logger logger = org.apache.logging.log4j.LogManager.getLogger(CampaignTrackingSingleton.class);
 	
@@ -38,7 +38,7 @@ public class CampaignTrackingSingleton implements CampaignTrackingRemote {
 		logger.info("<constructor>: " + this);
 	}
 	
-	/**
+	/*
 	 * add a campaign execution
 	 */
 	@javax.ejb.Lock(javax.ejb.LockType.WRITE)
